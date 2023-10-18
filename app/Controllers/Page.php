@@ -2,10 +2,13 @@
 
 namespace App\Controllers;
 
+use app\controllers\BaseController;
+
 class Page extends BaseController
+
 {
-    public function index(): string
+    public function index()
     {
-        return "ini adalah halaman page";
+        return view ("index");
     }
 }
